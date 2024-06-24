@@ -1,0 +1,23 @@
+root = true
+
+[*]
+end_of_line = lf
+insert_final_newline = true
+
+[*.{js,ts,json,mjs,cjs,jsx,tsx,code-workspace,css,scss}]
+charset = utf-8
+indent_style = space
+indent_size = 2
+
+[*.{go}]
+charset = utf-8
+indent_style = tab
+
+[*.swift]
+charset = utf-8
+indent_style = space
+indent_size = 2
+
+[Makefile]
+charset = utf-8
+indent_style = tab
